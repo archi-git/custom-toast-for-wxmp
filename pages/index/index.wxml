@@ -1,0 +1,5 @@
+<custom-toast toast-class="{{toastClass}}" is-show-add-coin-toast="{{isShowAddCoinToast}}" is-show-reduce-coin-toast="{{isShowReduceCoinToast}}" toast-content="{{toastContent}}"/> 
+
+
+<button bindtap='add'>加</button>
+<button bindtap="reduce">减</button>

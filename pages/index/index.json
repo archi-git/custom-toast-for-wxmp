@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "custom-toast": "../../component/custom-toast/custom-toast"
+  }
+}

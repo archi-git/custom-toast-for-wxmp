@@ -1,0 +1,13 @@
+<!-- <view class="toastWrapper"> -->
+  <view class="center toast {{toastClass}}" hidden="{{!isShowAddCoinToast}}">
+    <image src="../../component/custom-toast/icon_gold_34.png" ></image>
+    <text>{{toastContent}}</text>
+  </view>
+  <view class="center toast ReduceCoin {{toastClass}}" hidden="{{!isShowReduceCoinToast}}">
+    <image src="../../component/custom-toast/icon_gold_34.png" ></image>
+    <text>{{toastContent}}</text>
+  </view>
+    
+<!-- </view> -->
+
+

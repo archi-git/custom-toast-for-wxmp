@@ -1,0 +1,48 @@
+/* component/custom-toast/custom-toast.wxss */
+.toastWrapper{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.toast{
+	/*width: 270rpx;*/
+	height: 80rpx;
+	line-height: 80rpx;
+	display: inline-block;
+	background: white;
+	border-radius: 40rpx;
+	padding: 0 40rpx;
+	box-sizing: border-box;
+	 transition: opacity .5s; 
+	opacity: 0;
+	/*background-clip: content-box;*/
+}
+.ReduceCoin{
+  background: black;
+  color: white
+}
+.toast image {
+	width: 34rpx;
+	height: 34rpx;
+	vertical-align: middle;
+	/*background: blue*/
+}
+.toast text{
+	/*background: red;*/
+	/*font-size: 16dp;*/
+	color:#FD4E02;
+	margin-left: 6rpx;
+	/*line-height: 34rpx;*/
+}
+.visible{
+	opacity: 1
+}
+.unvisible{
+	opacity: 0
+}
